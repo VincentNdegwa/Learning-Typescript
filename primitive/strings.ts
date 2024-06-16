@@ -1,0 +1,24 @@
+let username: string = "john miko";
+username = "2";
+// username = 7 number not assignable to a type string
+// username = true boolean not assignable to a type string
+// username = null null not assignable to a type string
+// username = undefined undefined not assignable to a type string
+// username = {} object not assignable to a type string
+// username = [] array not assignable to a type string
+// username = function(){} function not assignable to a type string
+// username = class{} class not assignable to a type string
+// username = Symbol() symbol not assignable to a type string
+// username = BigInt() big int not assignable to a type string
+// username = RegExp() regex not assignable to a type string
+// username = Error() error not assignable to a type string
+// username = Math math not assignable to a type string
+// username = JSON json not assignable to a type string
+// username = console console not assignable to a type string
+// username = process process not assignable to a type string
+// username = global global not assignable to a type string
+// username = Buffer buffer not assignable to a type string
+// username = require require not assignable to a type string
+// username = module module not assignable to a type string
+// username = exports exports not assignable to a type string
+
