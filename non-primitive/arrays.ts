@@ -28,3 +28,7 @@ const carsArray: Array<car> = [
     moving: true,
   },
 ];
+
+type defaultObject = car | object;
+
+const testArray: Array<defaultObject> = [{}, { id: 43 }];
