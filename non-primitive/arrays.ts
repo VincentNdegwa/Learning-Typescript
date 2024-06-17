@@ -1,3 +1,6 @@
+import { car } from "./interface";
+import { student } from "./objects";
+
 const indexes: Array<string> = ["1", "2", "3"];
 // indexes.push(7); cannot add a nuumber to an array of type string
 indexes.push("4");
@@ -12,3 +15,16 @@ booleanArray.push(false);
 
 const objectArray: Array<object> = [{}, {}];
 objectArray.push({});
+
+const studentArray: Array<typeof student> = [
+  { name: "Bob", id: 3, login: true },
+];
+
+const carsArray: Array<car> = [
+  {
+    name: "Toyota",
+    model: "2023",
+    engine: "off",
+    moving: true,
+  },
+];
